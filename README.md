@@ -5,21 +5,21 @@ With this python code, you will be able to use **awe rekognition** services for 
 2. Go to the terminal to install CLI.
      pip install awscli
 3. Configure CLI with Amazon credentials and region information.
-    1). To do this, go to your IAM account -> create a user and specify name -> give 	
+    1). Go to your IAM account and create a user and specify name -> give 	
     programmatic access to this user -> give administrator access, 
     AmazonRekognitionFullAccess, AmazonS3FullAccess, AmazonSQSFullAccess, 
     AmazonSNSFullAccess. 
-    2). Copy access key ID and secret access key for the configuration.
+    2). Copy access key ID and secret access key for the aws configuration (step4).
     3). Create a role by giving it a name and AmazonRekognitionFullAccess.
     4). **Save role ARN** -> you will need to copy this to the code!
     5). Creat **a bucket in your S3 and upload** your video/image.  
     6) **Save the bucket and the file names** -> you will need to copy this to the code!
-4. Go to terminal and type
+4. Go to terminal and do the aws configuration.
      aws configure
      You will need to type **Access key ID, secret access key, and region information**.
      Region info:  “us-east-1”. see the link below to check your region.
      [https://docs.aws.amazon.com/general/latest/gr/rande.html]
-5. Install boto3
+5. Install boto3.
     (optino1) pip install boto3
     (option 2) conda install -c anaconda boto3
 
