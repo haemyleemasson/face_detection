@@ -1,4 +1,4 @@
-﻿# How to use aws rekogntion (for a Mac OS or Linux user)
+# How to use aws rekogntion (for a Mac OS or Linux user)
 With this python code, you will be able to use **awe rekognition** services for analyzing a stored video. This code is initially made for face detection. The code needs slight modification when using other services (e.g., scene labeling or celebrity recognition).
 # Prerequisites
 1. Create/log into the AWS IAM account.
@@ -25,7 +25,9 @@ With this python code, you will be able to use **awe rekognition** services for 
 
 If you need more information, please visit [https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples]
 # Python Code
-
 This code is the modified version of a sample code provided by Amazon.
 At the end of the code, copy and paste the role ARN, bucket, and the file name.
 Note that your video must be in the MP4 format.  
+# MATLAB Code
+This code is to create the onset file for the fMRI analysis. 
+The face onset file is in second (not TR nor millisecond) and can be added to the first-level fMRI design matrix. 
