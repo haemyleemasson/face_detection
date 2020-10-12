@@ -29,6 +29,7 @@ With this python code, you will be able to use **awe rekognition** services for 
        conda install -c anaconda boto3 (option2)
 
 If you need more information, please visit [https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples]
+
 To read more, please visit https://docs.aws.amazon.com/rekognition/latest/dg/api-video-roles.html
 # Python Code
 This code is the modified version of a sample code provided by Amazon.
