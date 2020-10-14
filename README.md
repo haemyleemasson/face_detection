@@ -12,7 +12,7 @@ With this python code, you will be able to use **awe rekognition** services for 
     AmazonRekognitionFullAccess, AmazonS3FullAccess, AmazonSQSFullAccess, 
     AmazonSNSFullAccess. 
     2. Copy access key ID and secret access key for the aws configuration (step4).
-    3. Create a role by giving it a name and AmazonRekognitionFullAccess.
+    3. Create a role by giving it a name and AmazonRekognitionFullAccess and give Amazon Rekognition Video access to Amazon SNS topics (see document 2 number 7).
     4. **Save role ARN** -> you will need to copy this to the code!
     5. Creat **a bucket in your S3 and upload** your video/image.  
     6. **Save the bucket and the file names** -> you will need to copy this to the code!
@@ -28,9 +28,9 @@ With this python code, you will be able to use **awe rekognition** services for 
        pip install boto3 (option1)
        conda install -c anaconda boto3 (option2)
 
-If you need more information, please visit [https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples]
+If you need more information, please visit [https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples] [1]
 
-To read more, please visit https://docs.aws.amazon.com/rekognition/latest/dg/api-video-roles.html
+To read more, please visit [https://docs.aws.amazon.com/rekognition/latest/dg/api-video-roles.html] [2]
 # Python Code
 This code is the modified version of a sample code provided by Amazon.
 At the end of the code, copy and paste the role ARN, bucket, and the file name.
