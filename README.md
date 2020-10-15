@@ -21,16 +21,13 @@ With this python code, you will be able to use **awe rekognition** services for 
        aws configure
           
      You will need to type **Access key ID, secret access key, and region information**.
-     Region info:  “us-east-1”. see the link below to check your region.
-     [https://docs.aws.amazon.com/general/latest/gr/rande.html]
+     Region info:  “us-east-1”. see the link below to check your [region](https://docs.aws.amazon.com/general/latest/gr/rande.html]).
 5. Install boto3.
        
        pip install boto3 (option1)
        conda install -c anaconda boto3 (option2)
 
-If you need more information, please visit [https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples] [1]
-
-To read more, please visit [https://docs.aws.amazon.com/rekognition/latest/dg/api-video-roles.html] [2]
+If you need more information, please visit [1](https://github.com/awsdocs/amazon-rekognition-developer-guide/tree/master/code_examples/python_examples) and [2](https://docs.aws.amazon.com/rekognition/latest/dg/api-video-roles.html)
 # Python Code
 This code is the modified version of a sample code provided by Amazon.
 At the end of the code, copy and paste the role ARN, bucket, and the file name.
